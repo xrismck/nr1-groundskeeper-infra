@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NR1 Agent Groundskeeper
 
 ![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/newrelic/nr1-groundskeeper?include_prereleases&sort=semver) [![Snyk](https://snyk.io/test/github/newrelic/nr1-groundskeeper/badge.svg)](https://snyk.io/test/github/newrelic/nr1-groundskeeper)
@@ -74,3 +75,10 @@ Issues and enhancement requests can be submitted in the [Issues tab of this repo
 Contributions are welcome (and if you submit a Enhancement Request, expect to be invited to contribute it yourself :grin:). Please review our [Contributors Guide](CONTRIBUTING.md).
 
 Keep in mind that when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. If you'd like to execute our corporate CLA, or if you have any questions, please drop us an email at opensource@newrelic.com.
+=======
+# nr1-groundskeeper-infra
+
+Extends the existing NR1 Nerdpack Agent Groundskeeper to track Infrastructure Agents
+
+Github repo: https://github.com/newrelic/nr1-groundskeeper
+>>>>>>> 8a2d2cb5a1229abc9201e7f312960488798c8af9
