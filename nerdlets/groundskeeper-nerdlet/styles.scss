@@ -1,0 +1,70 @@
+.gk-content {
+    margin: 1em;
+
+    label {
+        font-size: 14px;
+        line-height: 16px;
+        margin-right: 1em;
+    }
+    .filter-bar {
+        border-bottom: 1px solid #edeeee;
+        height: 32px;
+        vertical-align: middle;
+
+        .filter-block {
+            display: inline-block;
+            height: 32px;
+            vertical-align: middle;
+            border-right: 1px solid #edeeee;
+            margin: 0 0.5em;
+            padding: 0 0.5em;
+
+            label {
+                height: 100%;
+                line-height: 100%;
+                vertical-align: baseline;
+            }
+            select {
+                vertical-align: baseline;
+            }
+
+            &:last-of-type {
+                border: none;
+            }
+        }
+    }
+
+    h2, h3 {
+        margin-bottom: 0.5em;
+    }
+
+    .settings {
+        text-align: right;
+    }
+
+    .report {
+        display: flex;
+
+        .agent-table {
+            margin: 1em 0 0 1em;
+            width: 100%;
+        }
+
+        .agent-versions {
+            margin-left: auto;
+            order: 2;
+        }
+    }
+
+    .loader-error {
+        color: red;
+    }
+    .loader-success {
+        color: green;
+    }
+    .loader-active, .loader-error, .loader-success {
+        font-family: monospace;
+    }
+}
+
+@import '~react-table/react-table.css'

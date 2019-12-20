@@ -1,0 +1,7 @@
+{
+    "schemaType": "LAUNCHER",
+    "id": "groundskeeper-launcher",
+    "description": "Track and report versions of your deployed New Relic agents",
+    "displayName": "Agent Groundskeeper",
+    "rootNerdletId": "groundskeeper-nerdlet"
+}
